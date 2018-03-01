@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+body{
+	background-image: url(http://globalmedicalco.com/photos/globalmedicalco/11/50822.jpg);
+	height: 100%;
+	width: 100%;
+}
+#box{
+	margin: 90px auto;
+	height: 500px;
+	width: 40%;
+	background: #FAFAFF;
+	box-shadow: 1px 1px 5px black;
+	opacity: 0.9;
+}
+h1{
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 3rem;
+	color: #BF360C;
+}
+h2{
+	padding-top: 0;
+	padding-left: 30px;
+	font-size: 1.2rem;
+	color: #606060;
+}
+.botao{
+	text-decoration: none;
+	width: 70%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin: 25px center;
+	border-radius: 5px;
+	background: #D3D3D3;
+	font-size: 16px;
+	border: none;
+}
+.botao:hover{
+	background: #D32F2F;
+	transition: 0.5s;
+	color: #ECEFF1;
+}
+input{
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 1px;
+	height: 30px;
+	width: 70%;
+}
+::-webkit-input-placeholder {
+  color: #81D4FA;
+  background: #FAFAFF;
+}
+div.inputs{
+	margin-left: 110px;
+	margin-top: 60px;
+}
+.email, .senha{
+	font-size: 1.5rem;
+}
+div.inputs a{
+	color: #039BE5;
+	font-size: 0.8rem;
+	margin-top: 10px;
+	display: block;
+	position: absolute;
+}

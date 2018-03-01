@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(http://www.gsfdcy.com/data/img/73/1981427-rock-wallpaper.jpg);
+	height: 100%;
+	width: 100%;
+}
+nav{
+	height: 90px;
+	width: 100%;
+	background: #424242;
+	opacity: 0.7;
+	box-shadow: 1px 1px 5px black;
+}
+.botao{
+	text-decoration: none;
+	width: 70px;
+	height: 30px;
+	justify-content: center;
+	margin-top: 28px;
+	margin-left: 1100px;
+	border-radius: 5px;
+	background: #FAFAFA;
+	font-size: 1.2rem;
+	border: none;
+}
+.botao:hover{
+	background: #D32F2F;
+	transition: 0.5s;
+	color: #ECEFF1;
+}
+div.itens a{
+	margin-top: 0;
+	position: relative;
+	text-decoration: none;
+	display: flex;
+	text-transform: uppercase;
+	float: left;
+	color: #FAFAFF;
+	font-size: 1.2rem;
+}
+h1{
+	font-size: 5rem;
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #FF1744;
+	justify-content: center;
+	margin-left: 40px;
+	padding-top: 10px;
+}
+h2{
+	color: #FAFAFA;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+div.princ{
+	border: 3px solid #FF1744;
+	width: 50%;
+	text-align: right;
+	border-right: none;
+	border-left: none;
+	margin-top: 80px;
+	height: 300px;
+}
